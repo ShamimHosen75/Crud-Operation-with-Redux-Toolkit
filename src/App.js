@@ -1,5 +1,5 @@
 import './App.css';
-import UserList from './Features/Users/UserList';
+import UserList from './Features/users/UserList';
 
 function App() {
   return (
