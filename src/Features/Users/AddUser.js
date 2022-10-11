@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../Components/Buttons';
 import TextField from '../../Components/TextField';
 
 const AddUser = () => {
@@ -13,6 +14,7 @@ const AddUser = () => {
       label="Email"
       inputProps={{type: 'email', placeholder: 'shamim@gmail.com'}}
       />
+      <Button>Submit</Button>
     </div>
   );
 };
